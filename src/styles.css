@@ -1,0 +1,76 @@
+
+body {
+  background: #fff url('./background-image-blured.jpg') no-repeat fixed;
+  background-size: cover;
+}
+
+h1 {
+  background-color: #9bd9f252;
+}
+
+
+.App {
+  min-height: 100vh;
+  
+}
+
+.push {
+  height: 13rem;
+}
+
+footer {
+  padding: 2rem;
+  width: 100%;
+  background-color: #9bd9f252;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+footer a {
+  color: #5f808d;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #263338;
+}
+
+h2,
+.list-group,
+.list-background {
+  background-color: rgba(255, 255, 255, 0.835);
+}
+
+/* .list-group-item {
+  background-color: rgba(255, 255, 255, 0.623) !important;
+} */
+
+.list-group-item,
+.AllListArea.form,
+.AllListArea.input[type="text"] {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.title {
+  color: #2e5d70 !important;
+}
+
+
+@media (min-width: 1200px) {
+  footer {
+    position: static;
+  }
+
+  .push {
+    height: 17rem;
+  }
+}
+
+.showHide {
+    color: #fff;
+}
+
+.showHide:active {
+  color: #263338;
+}
