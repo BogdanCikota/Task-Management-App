@@ -1,6 +1,6 @@
 <h1>ToDoApp</h1>
 
-Site published at: https://bcikota.github.io/ToDoApp/
+Site published at: https://bogdancikota.github.io/ToDoApp/
 
 - Backend (RESTful API): https://github.com/BogdanCikota/ToDoAPI
     - nodeJS (express)  deployed on heroku
