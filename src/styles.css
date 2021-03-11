@@ -11,11 +11,6 @@ h1 {
 
 .App {
   min-height: 100vh;
-  
-}
-
-.push {
-  height: 13rem;
 }
 
 footer {
@@ -58,19 +53,9 @@ h2,
 
 
 @media (min-width: 1200px) {
-  footer {
-    position: static;
-  }
-
-  .push {
+  
+  /* .push {
     height: 17rem;
-  }
+  } */
 }
 
-.showHide {
-    color: #fff;
-}
-
-.showHide:active {
-  color: #263338;
-}

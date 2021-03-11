@@ -89,8 +89,9 @@ function ListArea(props) {
         props.setItemTitle('');
       });
   }
-  return <div style={props.clickedListTitle === '' ? { display: 'none' } : { display: 'block' }}>
-    <h2 className="d-inline-block mb-lg-4 text-secondary p-2 pl-4 pr-4 rounded">{props.clickedListTitle}</h2>
+  return <div >
+    {props.loading ? <h2 className="d-inline-block mb-lg-4 text-secondary p-2 pl-4 pr-4 rounded">List Title</h2> : <h2 className="d-inline-block mb-lg-4 text-secondary p-2 pl-4 pr-4 rounded">{props.clickedListTitle}</h2>}
+    
     <ListGroup className="mb-3">
       <ListGroup.Item style={props.listItems.length !== 0 ? { display: 'none' } : { display: 'block', height: '4rem', padding: '6px 12px' }}></ListGroup.Item>
 
@@ -119,16 +120,18 @@ function ListArea(props) {
         </ListGroup.Item>
       })}
     </ListGroup>
+    
     <form className="list-background rounded" style={{ paddingRight: '1.3rem', padding: '1rem' }} onSubmit={handleItemSubmit}>
       <Row className="mb-2">
         <Col >
           <input style={{ border: '1.5px solid lightBlue', fontSize: '1.1rem' }} className=" w-100 mb-2 p-2" type="text" onChange={handleItemChange} value={props.itemTitle} placeholder="add new item" />
         </Col>
         <Col className="d-none d-xl-block" style={{ maxWidth: '10rem' }} >
-          <button className="btn btn-outline-primary w-100" type="submit">ok</button>
+        {props.loading ? <button className="btn btn-outline-primary w-100" type="submit" disabled>ok</button> :
+        <button className="btn btn-outline-primary w-100" type="submit">ok</button>}
         </Col>
         <Col className="d-none d-xl-block" style={{ maxWidth: '10rem' }}>
-          {props.inputActive ?
+          {props.inputActive || props.loading ?
             <button className=" btn btn-outline-primary w-100" onClick={handleDeleteAllItems} disabled> delete all</button> :
             <button className=" btn btn-outline-primary w-100" onClick={handleDeleteAllItems}> delete all</button>}
         </Col>
@@ -136,10 +139,11 @@ function ListArea(props) {
 
       <Row className="d-xl-none ">
         <Col style={{ maxWidth: '10rem' }}>
-          <button className="btn btn-outline-primary w-100" type="submit">ok</button>
+        {props.loading ? <button className="btn btn-outline-primary w-100" type="submit" disabled>ok</button> :
+        <button className="btn btn-outline-primary w-100" type="submit">ok</button>}
         </Col>
         <Col style={{ maxWidth: '10rem' }}>
-        {props.inputActive ?
+        {props.inputActive || props.loading ?
             <button className=" btn btn-outline-primary w-100" onClick={handleDeleteAllItems} disabled> delete all</button> :
             <button className=" btn btn-outline-primary w-100" onClick={handleDeleteAllItems}> delete all</button>}
         </Col>

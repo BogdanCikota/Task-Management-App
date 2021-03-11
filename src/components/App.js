@@ -15,6 +15,7 @@ function App() {
   const [listItems, setListItems] = useState([]);
   const [deleteAllItemsActive, setDeleteAllItemsActive] = useState(false);
   const [inputActive, setInputActive] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   function handleListClick(e) {
     let currListID = escape(e.target.name);
@@ -27,6 +28,7 @@ function App() {
           if (res.data.items) {
             setListItems([...res.data.items]);
           }
+          setLoading(false);
         });
     }
   }
@@ -65,10 +67,10 @@ function App() {
               setDeleteAllItemsActive={setDeleteAllItemsActive}
               inputActive={inputActive}
               setInputActive={setInputActive}
+              loading={loading}
             />
           </Col>
         </Row>
-        <div class="push"></div>
 
       </Container>
       <footer className="text-center ">Made by <a href="https://github.com/BogdanCikota">Bogdan Cikota</a></footer>
