@@ -9,4 +9,4 @@ Site published at: https://bogdancikota.github.io/ToDoApp/
 
 - Frontend:
     - ReactJS
-    - bootstrap
+    - bootstrap 
