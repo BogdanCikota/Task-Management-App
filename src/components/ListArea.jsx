@@ -124,7 +124,7 @@ function ListArea(props) {
     <form className="list-background rounded" style={{ paddingRight: '1.3rem', padding: '1rem' }} onSubmit={handleItemSubmit}>
       <Row className="mb-2">
         <Col >
-          <input style={{ border: '1.5px solid lightBlue', fontSize: '1.1rem' }} className=" w-100 mb-2 p-2" type="text" onChange={handleItemChange} value={props.itemTitle} placeholder="add new item" />
+          <input style={{ border: '1.5px solid lightBlue', fontSize: '1.1rem' }} className=" w-100 mb-2 p-2" type="text" onChange={handleItemChange} value={props.itemTitle} placeholder="add new task" />
         </Col>
         <Col className="d-none d-xl-block" style={{ maxWidth: '10rem' }} >
         {props.loading ? <button className="btn btn-outline-primary w-100" type="submit" disabled>ok</button> :
