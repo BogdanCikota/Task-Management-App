@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BogdanCikota.github.io/ToDoApp",
+  "homepage": "https://BogdanCikota.github.io/Task-Management-App",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
