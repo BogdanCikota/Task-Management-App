@@ -36,7 +36,7 @@ function App() {
   return (
 
     <div className="App" >
-      <h1 className="pl-3 pl-lg-5 pt-2 pb-2 text-white">TodoApp</h1>
+      <h1 className="pl-3 pl-lg-5 pt-2 pb-2 text-white">Task Management App</h1>
       <Container className="mt-5" style={{maxWidth:'80rem'}} >
         <Row>
           <Col xl={6} style={{maxWidth:'40rem'}} >
