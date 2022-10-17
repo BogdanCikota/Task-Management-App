@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Task-Management-App/static/css/main.fd3d3d92.chunk.css",
-    "main.js": "/Task-Management-App/static/js/main.6d13e1cc.chunk.js",
-    "main.js.map": "/Task-Management-App/static/js/main.6d13e1cc.chunk.js.map",
+    "main.js": "/Task-Management-App/static/js/main.44007dfd.chunk.js",
+    "main.js.map": "/Task-Management-App/static/js/main.44007dfd.chunk.js.map",
     "runtime-main.js": "/Task-Management-App/static/js/runtime-main.b5452034.js",
     "runtime-main.js.map": "/Task-Management-App/static/js/runtime-main.b5452034.js.map",
     "static/css/2.8a17276e.chunk.css": "/Task-Management-App/static/css/2.8a17276e.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.8a17276e.chunk.css",
     "static/js/2.582b1ebb.chunk.js",
     "static/css/main.fd3d3d92.chunk.css",
-    "static/js/main.6d13e1cc.chunk.js"
+    "static/js/main.44007dfd.chunk.js"
   ]
 }
