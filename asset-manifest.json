@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ToDoApp/static/css/main.f1c108c9.chunk.css",
-    "main.js": "/ToDoApp/static/js/main.2006d139.chunk.js",
-    "main.js.map": "/ToDoApp/static/js/main.2006d139.chunk.js.map",
-    "runtime-main.js": "/ToDoApp/static/js/runtime-main.b7a16ce5.js",
-    "runtime-main.js.map": "/ToDoApp/static/js/runtime-main.b7a16ce5.js.map",
-    "static/css/2.a30a8688.chunk.css": "/ToDoApp/static/css/2.a30a8688.chunk.css",
-    "static/js/2.f3b1d633.chunk.js": "/ToDoApp/static/js/2.f3b1d633.chunk.js",
-    "static/js/2.f3b1d633.chunk.js.map": "/ToDoApp/static/js/2.f3b1d633.chunk.js.map",
-    "index.html": "/ToDoApp/index.html",
-    "static/css/2.a30a8688.chunk.css.map": "/ToDoApp/static/css/2.a30a8688.chunk.css.map",
-    "static/css/main.f1c108c9.chunk.css.map": "/ToDoApp/static/css/main.f1c108c9.chunk.css.map",
-    "static/js/2.f3b1d633.chunk.js.LICENSE.txt": "/ToDoApp/static/js/2.f3b1d633.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/ToDoApp/static/media/background-image-blured.86083c06.jpg"
+    "main.css": "/Task-Management-App/static/css/main.fd3d3d92.chunk.css",
+    "main.js": "/Task-Management-App/static/js/main.6d13e1cc.chunk.js",
+    "main.js.map": "/Task-Management-App/static/js/main.6d13e1cc.chunk.js.map",
+    "runtime-main.js": "/Task-Management-App/static/js/runtime-main.b5452034.js",
+    "runtime-main.js.map": "/Task-Management-App/static/js/runtime-main.b5452034.js.map",
+    "static/css/2.8a17276e.chunk.css": "/Task-Management-App/static/css/2.8a17276e.chunk.css",
+    "static/js/2.582b1ebb.chunk.js": "/Task-Management-App/static/js/2.582b1ebb.chunk.js",
+    "static/js/2.582b1ebb.chunk.js.map": "/Task-Management-App/static/js/2.582b1ebb.chunk.js.map",
+    "index.html": "/Task-Management-App/index.html",
+    "static/css/2.8a17276e.chunk.css.map": "/Task-Management-App/static/css/2.8a17276e.chunk.css.map",
+    "static/css/main.fd3d3d92.chunk.css.map": "/Task-Management-App/static/css/main.fd3d3d92.chunk.css.map",
+    "static/js/2.582b1ebb.chunk.js.LICENSE.txt": "/Task-Management-App/static/js/2.582b1ebb.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/Task-Management-App/static/media/background-image-blured.86083c06.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7a16ce5.js",
-    "static/css/2.a30a8688.chunk.css",
-    "static/js/2.f3b1d633.chunk.js",
-    "static/css/main.f1c108c9.chunk.css",
-    "static/js/main.2006d139.chunk.js"
+    "static/js/runtime-main.b5452034.js",
+    "static/css/2.8a17276e.chunk.css",
+    "static/js/2.582b1ebb.chunk.js",
+    "static/css/main.fd3d3d92.chunk.css",
+    "static/js/main.6d13e1cc.chunk.js"
   ]
 }
