@@ -1,4 +1,4 @@
-<h1>ToDoApp</h1>
+<h1>Task Management App</h1>
 
 Site published at: https://bogdancikota.github.io/Task-Management-App/
 
